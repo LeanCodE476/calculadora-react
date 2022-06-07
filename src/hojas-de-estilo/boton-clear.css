@@ -1,0 +1,14 @@
+.boton-clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin: 1rem;
+    background-color: rgba(255, 0, 0, 0.13);
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    color: white;
+}
+.boton-clear:hover{
+    background-color: rgba(173, 173, 173, 0.137);
+}

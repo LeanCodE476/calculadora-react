@@ -1,0 +1,36 @@
+.container-calculadora{
+    width: 27rem;
+    height: 40rem;
+    border-radius: 1rem;
+border-radius: 1rem;
+    background: #2C3E50;
+    box-shadow: inset 20px 20px 60px #253544,
+        inset -20px -20px 60px #33475c;
+        padding: 1rem;
+        outline: .1px solid rgba(255, 255, 255, 0.295);
+
+}
+.fila{
+    display: flex;
+    margin: .5rem;
+}
+@media screen and (max-width: 60rem) {
+.container-calculadora{
+    width: 80%;
+    height: 30rem;
+    padding: none;
+    max-width: 30rem;
+    min-width: 10rem;
+}
+.container-calculadora .input{
+    font-size: 1.5rem;
+}
+.container-calculadora .boton-contenedor{
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.container-calculadora .boton-clear{
+    font-size: 1.5rem;
+    height: 3rem;
+}
+}

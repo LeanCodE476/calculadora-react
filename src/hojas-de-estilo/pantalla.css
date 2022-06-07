@@ -1,0 +1,14 @@
+.input{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2rem;
+    height: 5rem;
+    margin:1rem ;
+    color: white;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    overflow: hidden;
+    background-color: #46464602;
+    border-bottom: .1rem solid white;
+}
