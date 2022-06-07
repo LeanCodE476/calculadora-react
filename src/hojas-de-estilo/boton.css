@@ -14,9 +14,9 @@
 .boton-contenedor:hover{
     background-color: #8d9ea02a;
 }
-.operador{
-    background-color:#95a5a625 ;
-}
+
 .operador:hover{
-background-color: #63060677;
+    transition: .3s all;
+    color: yellow;
+    outline: 1px solid rgba(255, 255, 0, 0.274);
 }

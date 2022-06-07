@@ -4,11 +4,13 @@
     align-items: center;
     height: 5rem;
     margin: 1rem;
-    background-color: rgba(255, 0, 0, 0.13);
-    border-radius: 1rem;
+border-radius: 1rem;
+    background: linear-gradient(145deg, #2f4256, #283848);
+    box-shadow: 20px 20px 60px #253544,
+        -20px -20px 60px #33475c;
     font-size: 2.5rem;
     color: white;
 }
 .boton-clear:hover{
-    background-color: rgba(173, 173, 173, 0.137);
+   color: rgba(255, 0, 0, 0.747);
 }
